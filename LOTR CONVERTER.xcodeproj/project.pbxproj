@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5BC3DF5298D626200072731 /* GridIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BC3DF4298D626200072731 /* GridIcons.swift */; };
 		B5C215CC298AD5E400059D42 /* LOTR_CONVERTERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C215CB298AD5E400059D42 /* LOTR_CONVERTERApp.swift */; };
 		B5C215CE298AD5E400059D42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C215CD298AD5E400059D42 /* ContentView.swift */; };
 		B5C215D0298AD5E600059D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C215CF298AD5E600059D42 /* Assets.xcassets */; };
@@ -14,6 +15,11 @@
 		B5C215DD298AD5E600059D42 /* LOTR_CONVERTERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C215DC298AD5E600059D42 /* LOTR_CONVERTERTests.swift */; };
 		B5C215E7298AD5E600059D42 /* LOTR_CONVERTERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C215E6298AD5E600059D42 /* LOTR_CONVERTERUITests.swift */; };
 		B5C215E9298AD5E600059D42 /* LOTR_CONVERTERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C215E8298AD5E600059D42 /* LOTR_CONVERTERUITestsLaunchTests.swift */; };
+		B5C215F6298B7F6E00059D42 /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C215F5298B7F6E00059D42 /* ExchangeInfo.swift */; };
+		B5C215F9298B868200059D42 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C215F8298B868200059D42 /* ExchangeRate.swift */; };
+		B5C215FB298B939400059D42 /* SelectCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C215FA298B939400059D42 /* SelectCoin.swift */; };
+		B5C215FD298B98C100059D42 /* CurrencyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C215FC298B98C100059D42 /* CurrencyIcon.swift */; };
+		B5C21600298BB77B00059D42 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C215FF298BB77B00059D42 /* CurrencyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5BC3DF4298D626200072731 /* GridIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridIcons.swift; sourceTree = "<group>"; };
 		B5C215C8298AD5E400059D42 /* LOTR CONVERTER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LOTR CONVERTER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C215CB298AD5E400059D42 /* LOTR_CONVERTERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTR_CONVERTERApp.swift; sourceTree = "<group>"; };
 		B5C215CD298AD5E400059D42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,11 @@
 		B5C215E2298AD5E600059D42 /* LOTR CONVERTERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LOTR CONVERTERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C215E6298AD5E600059D42 /* LOTR_CONVERTERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTR_CONVERTERUITests.swift; sourceTree = "<group>"; };
 		B5C215E8298AD5E600059D42 /* LOTR_CONVERTERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTR_CONVERTERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5C215F5298B7F6E00059D42 /* ExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
+		B5C215F8298B868200059D42 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
+		B5C215FA298B939400059D42 /* SelectCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCoin.swift; sourceTree = "<group>"; };
+		B5C215FC298B98C100059D42 /* CurrencyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyIcon.swift; sourceTree = "<group>"; };
+		B5C215FF298BB77B00059D42 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +106,14 @@
 		B5C215CA298AD5E400059D42 /* LOTR CONVERTER */ = {
 			isa = PBXGroup;
 			children = (
+				B5C215FE298BB75900059D42 /* model */,
+				B5C215F7298B865C00059D42 /* Components */,
 				B5C215CB298AD5E400059D42 /* LOTR_CONVERTERApp.swift */,
 				B5C215CD298AD5E400059D42 /* ContentView.swift */,
 				B5C215CF298AD5E600059D42 /* Assets.xcassets */,
 				B5C215D1298AD5E600059D42 /* Preview Content */,
+				B5C215F5298B7F6E00059D42 /* ExchangeInfo.swift */,
+				B5C215FA298B939400059D42 /* SelectCoin.swift */,
 			);
 			path = "LOTR CONVERTER";
 			sourceTree = "<group>";
@@ -125,6 +141,24 @@
 				B5C215E8298AD5E600059D42 /* LOTR_CONVERTERUITestsLaunchTests.swift */,
 			);
 			path = "LOTR CONVERTERUITests";
+			sourceTree = "<group>";
+		};
+		B5C215F7298B865C00059D42 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B5C215F8298B868200059D42 /* ExchangeRate.swift */,
+				B5C215FC298B98C100059D42 /* CurrencyIcon.swift */,
+				B5BC3DF4298D626200072731 /* GridIcons.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B5C215FE298BB75900059D42 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B5C215FF298BB77B00059D42 /* CurrencyModel.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C21600298BB77B00059D42 /* CurrencyModel.swift in Sources */,
+				B5C215F9298B868200059D42 /* ExchangeRate.swift in Sources */,
+				B5C215F6298B7F6E00059D42 /* ExchangeInfo.swift in Sources */,
+				B5C215FB298B939400059D42 /* SelectCoin.swift in Sources */,
+				B5BC3DF5298D626200072731 /* GridIcons.swift in Sources */,
 				B5C215CE298AD5E400059D42 /* ContentView.swift in Sources */,
 				B5C215CC298AD5E400059D42 /* LOTR_CONVERTERApp.swift in Sources */,
+				B5C215FD298B98C100059D42 /* CurrencyIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
